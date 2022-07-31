@@ -13,7 +13,8 @@ class FormCom extends Component {
         return (
             <div>
                 <Form onSubmit={this.handleForm}>
-                        {/* get city name */}
+                     
+                     
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label> <h2>Get City Information</h2></Form.Label>
                             <Form.Control 
@@ -25,7 +26,7 @@ class FormCom extends Component {
                         <Button 
                         variant="danger" 
                         type="submit">
-                        Explore City!
+                        Explore!!!
                         </Button>
                         </Form.Group>   
                 </Form>

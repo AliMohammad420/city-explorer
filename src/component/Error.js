@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Col, Row,Image,Alert} from 'react-bootstrap/'
+import { Container, Alert} from 'react-bootstrap/'
 
 export class Error extends Component {
     render() {
@@ -8,7 +8,7 @@ export class Error extends Component {
                <Container >
                         <Alert  
                         variant={'danger'}>
-                         We cant Handle Request Try Again please <br/>
+                         We can't Handle Request Try Again please <br/>
                          <span> Note: Check THE URL</span>
                          {this.props.cityNameStaticErr}
                         </Alert>

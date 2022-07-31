@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* header style */
+.headcontainer {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content:center;
+  background-color: black;
+  margin-bottom: 3rem;
+  padding:5rem 0;
+   
+}
+.header {
+  font-size:4rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 0px;
+  
+}
+.header h1 {
+  margin-left: -50px;
+}
+.imgcontainer {
+  width: 100px;
+  height: 100px;
+  margin-left: 20rem;
+}
+.imgcontainer img {
+  width: 100%;
+  border-radius:50%;
+}
+
+/* body */
+body div{
+  background-color:#343535;
+  color:#d9643a;
+}
+/*  styling the cards container */
+.card-img-top {
+  height: 10rem;
+}
+.card {
+  height:30rem;
+}
+
+/* footer style */
+.footer {
+  font-size:1.8rem;
+  margin-top:20px;
+  text-align: center;
+  background-color:#343535;
+  height:5rem;
+  line-height: 5rem;
+  
+}
+
+.formInfo {
+  margin-left: 25rem;
+}
+
+
+/* show buttons */
+.showButtons{
+  margin-left:22rem;
+  margin-bottom: 3rem;
+}
+.massge{
+  font-size: 3rem;
+  margin:1rem auto;
+  text-align:center;
+  
+}
+.card {
+  margin:1.5rem 2rem;
+  height: fit-content;
+}
+.card-img-top{
+  height:250px;
+}

@@ -6,7 +6,8 @@ class cityData extends Component {
     render() {
         return (
             <div>
-                {/* city data */}
+               
+
                 {this.props.displayCityData &&
                 <ShowData
                 displayErrMsg={this.props.displayErrMsg}
@@ -17,7 +18,7 @@ class cityData extends Component {
                }
 
 
-                {/* error massage */}
+                
                 {this.props.displayErrMsg && 
                     <Error/>
                 }

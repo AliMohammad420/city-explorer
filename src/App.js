@@ -17,16 +17,12 @@ export class App extends Component {
   
       }
     }
-  
-    // function HIT API
-    getCityName= async (cityName)=>{
+      getCityName= async (cityName)=>{
   
         const KEY =process.env.API_KEY;
         let URL =`https://eu1.locationiq.com/v1/search.php?key=${KEY}&q=${cityName}&format=json`;
   
-  
-        //  get data
-        try{
+          try{
               let result = await axios.get(URL);
               
               let cityObject =result.data[0];

@@ -31,27 +31,12 @@ code {
 .header h1 {
   margin-left: -50px;
 }
-.imgcontainer {
-  width: 100px;
-  height: 100px;
-  margin-left: 20rem;
-}
-.imgcontainer img {
-  width: 100%;
-  border-radius:50%;
-}
+
 
 
 body div{
   background-color:#343535;
   color:#d9643a;
-}
-
-.card-img-top {
-  height: 10rem;
-}
-.card {
-  height:30rem;
 }
 
 
@@ -80,11 +65,4 @@ body div{
   margin:1rem auto;
   text-align:center;
   
-}
-.card {
-  margin:1.5rem 2rem;
-  height: fit-content;
-}
-.card-img-top{
-  height:250px;
 }

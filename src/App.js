@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Lab06 from './component/Lab06';
-import Weather from './component/weather/weather';
+import Main from './component/weather/main.js';
 
 export class App extends Component {
 
@@ -30,7 +30,7 @@ export class App extends Component {
 
         <Header/>
         <Lab06/>
-        <Weather/>
+        <Main/>
         <Footer/>
 
         </div>

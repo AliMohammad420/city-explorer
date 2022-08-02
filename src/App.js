@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Lab06 from './component/Lab06';
+import Weather from './component/weather/weather';
 
 export class App extends Component {
 
@@ -11,12 +12,14 @@ export class App extends Component {
 
     this.state = {
       lab06:false,
+      weather:false
     }
   }
 
   showlab06=()=>{
     this.setState({
-      lab06:true
+      lab06:true,
+      weather:true
     })
   }  
   
@@ -27,6 +30,7 @@ export class App extends Component {
 
         <Header/>
         <Lab06/>
+        <Weather/>
         <Footer/>
 
         </div>

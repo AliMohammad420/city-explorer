@@ -20,3 +20,11 @@
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+----------------------------------------------
+
+![http Cyle](https://user-images.githubusercontent.com/108058306/182033016-b27e3ec3-a515-44a8-a37e-500a968d71c2.png)
+
+1) Http request from client to server ,  Http Response from server to client
+
+2) Get & Push**

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import FormCom from '../component/location/FormCom';
+import FormCom from './location/FormCom';
 import axios from 'axios';
-import CityData from '../component/location/CityData';
+import CityData from './location/CityData';
 
 class Lab06 extends Component {
 
@@ -21,7 +21,6 @@ class Lab06 extends Component {
       let URL =`https://eu1.locationiq.com/v1/search.php?key=${KEY}&q=${cityName}&format=json`;
 
 
-     
       try{
             let result = await axios.get(URL);
             let cityObject =result.data[0];

@@ -6,7 +6,7 @@ class FormCom extends Component {
     handleForm= async (event)=>{
         event.preventDefault();
         let  cityName = event.target.cityName.value;
-        this.props.getCityName(cityName);
+        this.props.getMovies(cityName);
     }
 
     render() {
@@ -14,7 +14,7 @@ class FormCom extends Component {
             <div>
                 <Form onSubmit={this.handleForm}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label> <h2>Get City Information</h2></Form.Label>
+                            <Form.Label> <h2>Get Movies Information</h2></Form.Label>
                             <Form.Control 
                             type="text" 
                             placeholder="Enter City Name" 

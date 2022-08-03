@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ShowData from './ShowData';
 import Error from './Error';
-
 class cityData extends Component {
     render() {
         return (
@@ -14,6 +13,8 @@ class cityData extends Component {
                 mapData={this.props.mapData}
                 />
                }
+
+
                 {this.props.displayErrMsg && 
                     <Error/>
                 }

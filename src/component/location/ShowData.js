@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import { Container, Col, Row,Image } from 'react-bootstrap/'
+import {Container,Col,Row,Image} from 'react-bootstrap/'
 
 export class ShowData extends Component {
     render() {
         return (
-            <div>         
+            <div>
+         
                 <Container>
                     <h3>City Name:{this.props.cityData?.display_name} </h3>
                     <h4>City Lat:{this.props.cityData?.lat}</h4>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Alert} from 'react-bootstrap/'
+import {Container,Alert} from 'react-bootstrap/'
 
 export class Error extends Component {
     render() {

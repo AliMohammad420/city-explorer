@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Lab06 from './component/Lab06';
-import Weather from './component/weather/weather';
+import Lab07 from './component/Lab07';
+import Lab08 from './component/Lab08';
 
 export class App extends Component {
 
@@ -12,27 +13,36 @@ export class App extends Component {
 
     this.state = {
       lab06:false,
-      weather:false
+      lab07:false,
+      lab08:false,
     }
   }
 
   showlab06=()=>{
     this.setState({
-      lab06:true,
-      weather:true
+      lab06:true
     })
   }  
-  
+  showlab07=()=>{
+    this.setState({
+      lab07:true
+    })
+  } 
+   showlab08=()=>{
+    this.setState({
+      lab08:true
+    })
+  } 
+
 
   render() {
     return (
       <div>
-
         <Header/>
-        <Lab06/>
-        <Weather/>
+           <Lab06/>
+           <Lab07/>
+           <Lab08/>
         <Footer/>
-
         </div>
     )
   }

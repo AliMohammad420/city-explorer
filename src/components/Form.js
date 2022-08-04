@@ -6,11 +6,11 @@ class Form extends Component {
                 <form onSubmit={this.props.handleSubmit}>
                     <input type="text"
 
-                        placeholder="Please interr city name"
+                        placeholder="City Name"
                         onChange={this.props.handleLocation}
                     />
                     <input type="submit"
-                        value="Explore"
+                        value="Explore!"
                     />
                 </form>
             </div>

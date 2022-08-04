@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import {
-    Alert
-} from 'react-bootstrap'
+import {Alert} from 'react-bootstrap'
 
 class ErrorCard extends Component {
     render() {
